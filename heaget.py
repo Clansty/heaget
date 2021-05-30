@@ -2,6 +2,7 @@
 
 import sys
 import requests
+import os
 
 vid=sys.argv[1]
 m3u8=requests.get('https://media.heanet.ie/m3u8/'+vid).text
